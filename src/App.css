@@ -1,0 +1,103 @@
+/* 🌍 General Page Setup */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 📦 Card Container */
+.container {
+  background: white;
+  width: 400px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+/* 🧾 Title */
+.container h2 {
+  color: #333;
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+}
+
+/* 🧍‍♂️ Input Fields */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #2575fc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(37, 117, 252, 0.3);
+}
+
+/* 🚀 Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+  transform: scale(1.03);
+}
+
+/* 💬 Message */
+p {
+  margin-top: 1rem;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+/* ✅ Success and Error messages */
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+/* 🔢 OTP Input Boxes */
+.otp-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.otp-box {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: al
+}
